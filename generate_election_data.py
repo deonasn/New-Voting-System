@@ -1,7 +1,7 @@
 import random
 
-num_voters = 19000
-num_candidates = 5
+num_voters = random.randint(100, 99999)
+num_candidates = random.randint(5, 20)
 
 # Generate unique 10-digit voter IDs
 voter_ids = set()
